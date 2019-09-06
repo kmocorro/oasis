@@ -8,7 +8,7 @@ import clsx from 'clsx';
 import Router from 'next/router'
 import fetch from 'isomorphic-unfetch'
 import nextCookie from 'next-cookies'
-import { withAuthSync } from '../utils/auth'
+import { withAuthSync, logout } from '../utils/auth'
 import getHost from '../utils/get-host'
 
 import Typography from '@material-ui/core/Typography';
@@ -236,7 +236,9 @@ function Index(props) {
               setSuccessMessageSnackBar(content.success);
               
               setTimeout(() => {
-                  Router.push(loadStatusPage, asStatusPage);
+                Router.push(loadStatusPage, asStatusPage);
+              
+                logout();
               }, 1400);
               
 
@@ -245,6 +247,7 @@ function Index(props) {
               setErrorOpenSnackBar(true);
               setErrorMessageSnackBar(content.error)
 
+              logout();
           }
 
       })();
