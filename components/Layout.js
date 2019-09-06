@@ -65,7 +65,7 @@ const cards = [1, 2, 3, 4];
 
 export default function Layout(props) {
     const classes = useStyles();
-    console.log(props.data);
+    //console.log(props.data);
     const user = props.data;
 
     return (

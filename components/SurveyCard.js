@@ -48,6 +48,7 @@ import cirq_head from '../images/cirq1.jpg'
 
 export default function SurveyCard(props) {
     const classes = useStyles();
+    const handleClickOpen = props.handleClickOpen;
 
     return (
         <Fragment>
@@ -72,6 +73,9 @@ export default function SurveyCard(props) {
                             View
                         </Button>
                     </Link>
+                    <Button size="small" color="primary" onClick={() => handleClickOpen({ survey_id: 'Gatsby'})} >
+                        I want this!
+                    </Button>        
                 </CardActions>
                 </Card>
             </Grid>
@@ -97,6 +101,9 @@ export default function SurveyCard(props) {
                             View
                         </Button>
                     </Link>
+                    <Button size="small" color="primary" onClick={() => handleClickOpen({ survey_id: 'Enchanted-Forest'})} >
+                        I want this!
+                    </Button>        
                 </CardActions>
                 </Card>
             </Grid>
@@ -122,6 +129,10 @@ export default function SurveyCard(props) {
                             View
                         </Button>
                     </Link>
+
+                    <Button size="small" color="primary" onClick={() => handleClickOpen({ survey_id: 'Black-and-White'})} >
+                        I want this!
+                    </Button>        
                 </CardActions>
                 </Card>
             </Grid>
@@ -147,6 +158,9 @@ export default function SurveyCard(props) {
                             View
                         </Button>
                     </Link>
+                    <Button size="small" color="primary" onClick={() => handleClickOpen({ survey_id: 'Cirque-Du-Soleil'})} >
+                        I want this!
+                    </Button>        
                 </CardActions>
                 </Card>
             </Grid>
