@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
 
 import bnw1 from '../images/bnw1.jpg';
 import bnw2 from '../images/bnw2.jpg';
-import bnw3 from '../images/bnw3.jpg';
+//import bnw3 from '../images/bnw3.jpg';
 import bnw4 from '../images/bnw4.jpg';
 
 const tileData = [
@@ -36,16 +36,10 @@ const tileData = [
         cols: 1,
     },
     {
-        img: bnw3,
-        title: 'bnw3',
-        author: 'author',
-        cols: 1,
-    },
-    {
         img: bnw4,
         title: 'bnw4',
         author: 'author',
-        cols: 2,
+        cols: 3,
     },
 ];
 
