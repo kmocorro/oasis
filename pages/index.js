@@ -239,7 +239,7 @@ function Index(props) {
                 Router.push(loadStatusPage, asStatusPage);
               
                 logout();
-              }, 1400);
+              }, 3000);
               
 
           } else if(content.error){
@@ -247,7 +247,9 @@ function Index(props) {
               setErrorOpenSnackBar(true);
               setErrorMessageSnackBar(content.error)
 
-              logout();
+              setTimeout(() => {
+                logout();
+              }, 3000);
           }
 
       })();
