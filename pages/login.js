@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
         height: '100vh',
     },
     image: {
-        backgroundImage: 'url()',
+        backgroundImage: 'url(http://dev-metaspf401.sunpowercorp.com:8080/images/fab4.jpg)',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -116,7 +116,7 @@ export default function SignInSide() {
                 <LockOutlinedIcon />
             </Avatar>
             <Typography component="h1" variant="h5">
-                meta/oasis
+                meta/signin
             </Typography>
             <form className={classes.form} onSubmit={handleOnSubmit} >
                 <TextField
@@ -161,6 +161,9 @@ export default function SignInSide() {
                     </Typography>
                 </Grid>
                 </Grid>
+                    <Typography color="textSecondary" variant="caption">
+                        This is a Fab4 application created solely for this purpose.
+                    </Typography>
                 <Box mt={5}>
                 </Box>
             </form>
