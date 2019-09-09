@@ -99,7 +99,7 @@ export default function Layout(props) {
                 2019 Year-End Party Theme Survey
                 </Typography>
                 <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                    It's the Most Wonderful Time of the Year. Help us choose our theme on our 2019 Year-End party!
+                    It's the Most Wonderful Time of the Year. Help us choose our theme for our 2019 Year-End party!
                 </Typography>
                 { /**
                 <div className={classes.heroButtons}>

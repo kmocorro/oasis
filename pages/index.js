@@ -249,7 +249,7 @@ function Index(props) {
 
               setTimeout(() => {
                 logout();
-              }, 3000);
+              }, 5000);
           }
 
       })();
