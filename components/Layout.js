@@ -96,7 +96,7 @@ export default function Layout(props) {
             <div className={classes.heroContent}>
             <Container maxWidth="sm">
                 <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-                2019 Year-End Party Theme Survey
+                2019 Year-End Party Theme Poll
                 </Typography>
                 <Typography variant="h5" align="center" color="textSecondary" paragraph>
                     It's the Most Wonderful Time of the Year. Help us choose our theme for our 2019 Year-End party!
