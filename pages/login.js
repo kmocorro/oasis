@@ -161,11 +161,11 @@ export default function SignInSide() {
                     </Typography>
                 </Grid>
                 </Grid>
+                <Grid item xs={12} lg={12} md={12}>
                     <Typography color="textSecondary" variant="caption">
-                        This is a Fab4 application created solely for this purpose.
+                        By Signin in, you agree that meta or the developer of meta is not part of IT apps and is not saving, storing or tracking username/password. If you have questions, please call HR.
                     </Typography>
-                <Box mt={5}>
-                </Box>
+                </Grid>
             </form>
             </div>
         </Grid>
