@@ -20,7 +20,7 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>Page</title>
+          <title>META | Manufacturing Engineering Tool App</title>
         </Head>
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

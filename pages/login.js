@@ -116,7 +116,7 @@ export default function SignInSide() {
                 <LockOutlinedIcon />
             </Avatar>
             <Typography component="h1" variant="h5">
-                meta/signin
+                meta/sign-in
             </Typography>
             <form className={classes.form} onSubmit={handleOnSubmit} >
                 <TextField
@@ -163,7 +163,7 @@ export default function SignInSide() {
                 </Grid>
                 <Grid item xs={12} lg={12} md={12}>
                     <Typography color="textSecondary" variant="caption">
-                        By Signin in, you agree that meta or the developer of meta is not part of IT apps and is not saving, storing or tracking username/password. If you have questions, please call HR.
+                        By signing in, you agree that "meta" is developed under fab4 engineering department and it does not track, store or save your username/password. If you have questions, please send an email to <a href="mailto:kmocorro@sunpowercorp.com?subject=META%20Sign-in">kdm</a>
                     </Typography>
                 </Grid>
             </form>
