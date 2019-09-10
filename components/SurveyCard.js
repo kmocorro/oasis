@@ -69,11 +69,11 @@ export default function SurveyCard(props) {
                 </CardContent>
                 <CardActions>
                     <Link href="/gatsby">
-                        <Button size="small" color="secondary">
+                        <Button size="small" color="primary">
                             View
                         </Button>
                     </Link>
-                    <Button size="small" color="secondary" onClick={() => handleClickOpen({ survey_id: 'Gatsby'})} >
+                    <Button size="small" color="primary" onClick={() => handleClickOpen({ survey_id: 'Gatsby'})} >
                         I want this!
                     </Button>        
                 </CardActions>
@@ -97,11 +97,11 @@ export default function SurveyCard(props) {
                 </CardContent>
                 <CardActions>
                     <Link href="/enchantedforest">
-                        <Button size="small" color="secondary">
+                        <Button size="small" color="primary">
                             View
                         </Button>
                     </Link>
-                    <Button size="small" color="secondary" onClick={() => handleClickOpen({ survey_id: 'Enchanted-Forest'})} >
+                    <Button size="small" color="primary" onClick={() => handleClickOpen({ survey_id: 'Enchanted-Forest'})} >
                         I want this!
                     </Button>        
                 </CardActions>
@@ -125,12 +125,12 @@ export default function SurveyCard(props) {
                 </CardContent>
                 <CardActions>
                     <Link href="/blackandwhite">
-                        <Button size="small" color="secondary">
+                        <Button size="small" color="primary">
                             View
                         </Button>
                     </Link>
 
-                    <Button size="small" color="secondary" onClick={() => handleClickOpen({ survey_id: 'Black-and-White'})} >
+                    <Button size="small" color="primary" onClick={() => handleClickOpen({ survey_id: 'Black-and-White'})} >
                         I want this!
                     </Button>        
                 </CardActions>
@@ -154,11 +154,11 @@ export default function SurveyCard(props) {
                 </CardContent>
                 <CardActions>
                     <Link href="/cirquedusoleil">
-                        <Button size="small" color="secondary">
+                        <Button size="small" color="primary">
                             View
                         </Button>
                     </Link>
-                    <Button size="small" color="secondary" onClick={() => handleClickOpen({ survey_id: 'Cirque-Du-Soleil'})} >
+                    <Button size="small" color="primary" onClick={() => handleClickOpen({ survey_id: 'Cirque-Du-Soleil'})} >
                         I want this!
                     </Button>        
                 </CardActions>
