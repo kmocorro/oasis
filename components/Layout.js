@@ -24,13 +24,6 @@ function Copyright() {
             kdm
         </Link>
         </Tooltip>
-        <Grid container>
-            <Grid item>
-                <Typography variant="body2" color="textSecondary" align="center">
-                    meta is made possible through the work of other open source software.
-                </Typography>
-            </Grid>
-        </Grid>
     </Typography>
   );
 }
@@ -142,6 +135,9 @@ export default function Layout(props) {
                 Year-End Party Survey by Manufacturing Engineering Tool App 
             </Typography>
             <Copyright />
+            <Typography variant="caption" align="center" color="textSecondary" component="p">
+            meta is made possible through the work of other open source software.
+            </Typography>
         </footer>
         {/* End footer */}
         </Fragment>
