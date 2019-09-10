@@ -24,7 +24,13 @@ function Copyright() {
             kdm
         </Link>
         </Tooltip>
-        meta is made possible through the work of other open source software.
+        <Grid container>
+            <Grid item>
+                <Typography variant="body2" color="textSecondary" align="center">
+                    meta is made possible through the work of other open source software.
+                </Typography>
+            </Grid>
+        </Grid>
     </Typography>
   );
 }
