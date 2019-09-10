@@ -24,6 +24,7 @@ function Copyright() {
             kdm
         </Link>
         </Tooltip>
+        meta is made possible through the work of other open source software.
     </Typography>
   );
 }
