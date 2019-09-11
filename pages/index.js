@@ -324,9 +324,11 @@ Index.getInitialProps = async ctx => {
       headers: {
         Authorization: JSON.stringify({ token })
       }
-    })
+    });
 
-    if (response.ok) {
+    //console.log(response.statusText);
+
+    if (response.statusText === 'OK') {
       const js = await response.json()
       //console.log('js', js)
       return js

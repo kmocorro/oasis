@@ -82,16 +82,16 @@ export default function SignInSide() {
                 const { token, err } = await response.json();
                 
                 if( typeof token === 'undefined'){
-                    console.log({ err })
+                    //console.log({ err })
                     setResponseError(err ? err : responseError)
                 } else {
-                    console.log({ token })
+                    //console.log({ token })
                     await login({ token });
                 }
                 
                 
             } else {
-                console.log('Login failed.');
+                //console.log('Login failed.');
 
                 let error = new Error(response.statusText)
                 error.response = response

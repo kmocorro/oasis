@@ -6,6 +6,8 @@ export default async (req, res) => {
   }
 
   const auth = await req.headers.authorization
+  
+  console.log(auth);
 
   try {
     const { token }  = JSON.parse(auth)

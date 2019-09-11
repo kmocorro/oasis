@@ -2,14 +2,24 @@
 // For production consider the usage of environment variables and NODE_ENV
 function getHost (req) {
     if (!req) return ''
-  
+
+   
     const { host } = req.headers
   
     if (host.startsWith('localhost')) {
       return `http://${host}`
     }
-    return `https://${host}`
-  }
+    return `http://${host}`
+    
+  /*
+  const protocol = req ? `${req.headers['x-forwarded-proto']}:` : location.protocol;
+  const host = req ? req.headers['x-forwarded-host'] : location.host;
+  
+  return `${protocol}//${host}`
+
+  */
+
+}
   
   export default getHost
   

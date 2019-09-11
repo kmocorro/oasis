@@ -26,6 +26,7 @@ function withAuthSync (WrappedComponent) {
     static async getInitialProps (ctx) {
       const token = auth(ctx)
 
+
       const componentProps =
         WrappedComponent.getInitialProps &&
         (await WrappedComponent.getInitialProps(ctx))
