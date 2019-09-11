@@ -21,6 +21,7 @@ export default class MyApp extends App {
       <React.Fragment>
         <Head>
           <title>META | Manufacturing Engineering Tool App</title>
+          <noscript>You don't have Javascript enabled. Instead, please use Firefox or Chrome for it to work properly.</noscript>
         </Head>
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
