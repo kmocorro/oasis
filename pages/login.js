@@ -118,6 +118,7 @@ export default function SignInSide() {
             <Typography component="h1" variant="h5">
                 meta/sign-in
             </Typography>
+            
             <form className={classes.form} onSubmit={handleOnSubmit} >
                 <TextField
                 variant="outlined"
@@ -162,6 +163,9 @@ export default function SignInSide() {
                 </Grid>
                 </Grid>
                 <Grid item xs={12} lg={12} md={12}>
+                    <Typography color="textSecondary" variant="subtitle2" gutterBottom>
+                        If you cannot login, kindly use Mozilla or Chrome. Thank you so much! 
+                    </Typography>
                     <Typography color="textSecondary" variant="caption">
                         By signing in, you agree that "meta" was designed, developed and managed by fab4 engineering team and it does not track, store or save your password. If you have questions, please send an email to <a href="mailto:kmocorro@sunpowercorp.com?subject=META%20Sign-in">kdm</a>.
                     </Typography>
