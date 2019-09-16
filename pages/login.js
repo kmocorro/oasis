@@ -162,10 +162,10 @@ export default function SignInSide() {
                     </Typography>
                 </Grid>
                 </Grid>
-                <Grid item xs={12} lg={12} md={12}>
                     <Typography color="textSecondary" variant="caption" gutterBottom>
                         If you cannot login, kindly use Mozilla or Chrome. Thank you so much! 
                     </Typography>
+                <Grid item xs={12} lg={12} md={12}>
                     <Typography color="textSecondary" variant="caption">
                         By signing in, you agree that "meta" was designed, developed and managed by fab4 engineering team and it does not track, store or save your password. If you have questions, please send an email to <a href="mailto:kmocorro@sunpowercorp.com?subject=META%20Sign-in">kdm</a>.
                     </Typography>
