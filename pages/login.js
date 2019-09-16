@@ -163,7 +163,7 @@ export default function SignInSide() {
                 </Grid>
                 </Grid>
                 <Grid item xs={12} lg={12} md={12}>
-                    <Typography color="textSecondary" variant="subtitle2" gutterBottom>
+                    <Typography color="textSecondary" variant="caption" gutterBottom>
                         If you cannot login, kindly use Mozilla or Chrome. Thank you so much! 
                     </Typography>
                     <Typography color="textSecondary" variant="caption">
